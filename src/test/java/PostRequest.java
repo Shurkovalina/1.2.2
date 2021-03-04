@@ -16,7 +16,7 @@ public class PostRequest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("nuit"))
+                .body("data", equalTo("Bonne nuit"))
         ;
     }
 }
